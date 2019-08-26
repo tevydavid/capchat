@@ -1,0 +1,19 @@
+{
+  "name": "capchat",
+  "version": "1.0.0",
+  "description": "plan GC2s and caps",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tevydavid/capchat.git"
+  },
+  "author": "Tevy Jacobs-Gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tevydavid/capchat/issues"
+  },
+  "homepage": "https://github.com/tevydavid/capchat#readme"
+}
