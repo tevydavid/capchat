@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tevydavid/capchat/issues"
   },
-  "homepage": "https://github.com/tevydavid/capchat#readme"
+  "homepage": "https://github.com/tevydavid/capchat#readme",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.31.0"
+  }
 }
