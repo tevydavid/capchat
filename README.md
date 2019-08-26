@@ -1,14 +1,15 @@
 # Instructions
 - Get the gcp-key
 ### Local
+Node 11
 ```
-mv ~/Downloads/gcp-key.json ./gcp-key.json
+mv /path/to/gcp-key.json ./gcp-key.json
 npm install
-node chat.js [your_name]
+npm run chat [your_name]
 ```
 ### Docker
 ```
-mv ~/Downloads/gcp-key.json ./gcp-key.json
+mv /path/to/gcp-key.json ./gcp-key.json
 docker build . -t capchat
-docker run -it capchat node chat.js [your_name]
+docker run -it capchat npm run chat [your_name]
 ```
